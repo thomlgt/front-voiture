@@ -16,7 +16,7 @@ const VoitureList = (props) => {
 
     return (
         <Fragment>
-            {voitures?.map(v => <VoitureRender id={v.id} marque={v.marque} couleur={v.couleur}/>)}
+            {voitures?.map((v, index) => <VoitureRender key={index} id={v.id} marque={v.marque} couleur={v.couleur}/>)}
         </Fragment>
     );
 };

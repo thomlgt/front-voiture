@@ -4,8 +4,7 @@ export class Voiture {
     marque;
     couleur;
 
-    constructor(id, marque, couleur) {
-        this.id = id;
+    constructor(marque, couleur) {
         this.marque = marque;
         this.couleur = couleur;
     }
